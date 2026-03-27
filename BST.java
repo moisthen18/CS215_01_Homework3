@@ -173,7 +173,7 @@ public class BST {
 	  }
 	}
 	
-	// ===== Part 2: Reverse Pre-order traversal =====
+	//  Part 2: Reverse Pre-order traversal 
 	private void revPreNodes(TNode curNode) {
 		if (curNode != null) {
 			travQueue.enqueue(curNode.item);
@@ -202,9 +202,8 @@ public class BST {
       }
 	}
 
-	//--------------------------------------------------------------
 	//  Part 1: Get height
-	//--------------------------------------------------------------
+	
 	public int getHeight() {
 		return heightHelper(root);
 	}
